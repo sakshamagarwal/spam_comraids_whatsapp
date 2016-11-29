@@ -46,5 +46,4 @@ while True:
 		for x in range(ord('a'),ord('z') + 1):
 			if x != ord('e'):
 				msg_input.send_keys(chr(x))
-				send_button = driver.find_element_by_css_selector("button.icon.btn-icon.icon-send.send-container")
-				send_button.click()
+				driver.find_element_by_css_selector("button.icon.btn-icon.icon-send.send-container").click()
