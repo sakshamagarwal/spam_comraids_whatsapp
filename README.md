@@ -1,12 +1,27 @@
-#you need selenium module for python to run this script
-for ubuntu users, this should work:
 
-sudo apt-get install python-selenium
+## WhatsApp Group SPAMmer
 
-#clone the repo and run the script as follows:
+## Pre-Requisites
+
+```
+pip install --user selenium
+```
+
+## Geting Started
+
+- clone the repo
+
+```
+git clone git@github.com:sakshamagarwal/spam_comraids_whatsapp.git
+```
+
+- run the script as follows
+
+```
 python spam_comraids.py
+```
 
-#After you scan the qr code on whatsapp web the script will ask (on the terminal) for the number of times you want to spam
+- After you scan the QR code on whatsapp web the script will ask (on the terminal) for the number of times you want to spam
 
-for help/suggestions contact:
-sak9agar@gmail.com
+## Conatct Me
+[Saksham Agarwal](mailto:sak9agar@gmail.com)
