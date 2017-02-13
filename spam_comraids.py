@@ -44,9 +44,11 @@ if __name__ == "__main__" :
 		sys.exit()
 
 	chat_div = driver.find_element_by_css_selector("div.chat-body")
+	print("REMEMBER, WITH GREAT POWER COMES GREAT RESPONSIBILITY!")
 	chat_div.click()
 
 	while True:
+		print("REMEMBER, WITH GREAT POWER COMES GREAT RESPONSIBILITY!")
 		print("Enter the number of times you want to spam:")
 		spam_count = input()
 		for i in range(spam_count):
@@ -54,5 +56,6 @@ if __name__ == "__main__" :
 			for x in range(ord('a'),ord('z') + 1):
 				if x != ord('e'):
 					msg_input.send_keys(chr(x))
+					print("REMEMBER, WITH GREAT POWER COMES GREAT RESPONSIBILITY!")
 					send_button = driver.find_element_by_css_selector("button.icon.btn-icon.icon-send.send-container")
 					send_button.click()
